@@ -1,9 +1,0 @@
-services:
-  projector-idea-u:
-    container_name: projector-idea-u
-    image: registry.jetbrains.team/p/prj/containers/projector-idea-u
-    ports:
-      - 8887:8887
-    volumes:
-      - ./data:/home/projector-user
-    restart: unless-stopped

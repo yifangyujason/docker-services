@@ -23,4 +23,4 @@ jobs:
           file: ./yifangyujason/chatgpt-proxy-server/Dockerfile 
           context: ./yifangyujason/chatgpt-proxy-server
           push: true
-          tags: yifangyujason/chatgpt-proxy-server
+          tags: yifangyujason/chatgpt-proxy-server:latest

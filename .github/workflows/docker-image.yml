@@ -3,6 +3,7 @@ name: chatgpt-proxy-server CI
 on:
   push:
     branches: [ "yifangyujason" ]
+    paths: [ "yifangyujason/chatgpt-proxy-server/**"]
 
 jobs:
 
